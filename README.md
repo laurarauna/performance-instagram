@@ -1,4 +1,4 @@
-# performance-intagram
+# performance-instagram
 Código Graph API  para monitoramento de métricas Instagram
 
 Este repositório contém um conjunto de scripts para monitorar e analisar métricas de contas do Instagram, utilizando tanto a API Graph oficial do Facebook quanto a biblioteca Instaloader para diferentes finalidades.
