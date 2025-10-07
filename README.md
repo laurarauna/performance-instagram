@@ -17,6 +17,17 @@ Antes de começar, você precisará de:
 - As contas do Instagram a serem monitoradas (com graphAPI_page.py) devem ser Contas Business e estar vinculadas a uma Página do Facebook que você administra.
 - Tokens de Acesso de Página do Facebook com as permissões necessárias (instagram_basic, instagram_manage_insights, pages_show_list, pages_read_engagement).
 
+## Token Facebook
+
+** Documentação META**
+https://developers.facebook.com/docs/graph-api/
+
+**Gerar token**
+https://developers.facebook.com/tools/explorer/
+
+**Depurar token e transforma-lo em um token de longa duração**
+https://developers.facebook.com/tools/debug/accesstoken/?access_token
+
 ## Uso
 Com o ambiente configurado, você pode executar os scripts diretamente do seu terminal.
 
