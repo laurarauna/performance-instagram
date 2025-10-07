@@ -6,6 +6,7 @@ Este repositório contém um conjunto de scripts para monitorar e analisar métr
 **O projeto é dividido em duas frentes principais:**
 - Análise Detalhada via API Graph (graphAPI_page.py): Coleta métricas aprofundadas de contas de Instagram Business que você administra. Os dados são processados e armazenados em um banco de dados SQL Server para análise histórica.
 - Monitoramento de Concorrentes (players_analysis.ipynb): Rastreia o crescimento de seguidores de uma lista de perfis públicos (concorrentes ou players do mercado) e salva os resultados em uma planilha Excel.
+- Visualização de Dados (Monitoramento Redes Sociais.pbix): Um painel de Power BI que se conecta ao banco de dados SQL Server para oferecer uma visualização interativa dos dados coletados. O painel inclui análises de engajamento, performance de conteúdo, demografia de público e comparativos entre contas.
 
 ## Pré-requisitos
 Antes de começar, você precisará de:
