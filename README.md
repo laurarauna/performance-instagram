@@ -17,7 +17,6 @@ Antes de começar, você precisará de:
 - As contas do Instagram a serem monitoradas (com graphAPI_page.py) devem ser Contas Business e estar vinculadas a uma Página do Facebook que você administra.
 - Tokens de Acesso de Página do Facebook com as permissões necessárias (instagram_basic, instagram_manage_insights, pages_show_list, pages_read_engagement).
 
-
 ## Uso
 Com o ambiente configurado, você pode executar os scripts diretamente do seu terminal.
 
@@ -25,5 +24,8 @@ Com o ambiente configurado, você pode executar os scripts diretamente do seu te
 Execute o script graphAPI_page.py. Ele irá iterar sobre as contas definidas no código, coletar todos os dados e salvá-los no SQL Server.
 **Para o Monitoramento de Concorrentes:**
 Execute o script players_analysis.ipynb. Ele irá buscar os dados de seguidores para a lista de usuários, atualizar (ou criar) a planilha Excel e salvar os resultados.
+
+## Saída
+Na pasta 'tables_sample' há um exemplo de saídas do código 'graphAPI_page.py'. Os modelos podem ser utilizados para criação das tabelas no banco de dados.
 
 *Recomenda-se agendar a execução desses scripts (por exemplo, com Cron no Linux ou Agendador de Tarefas no Windows) para automatizar o processo de coleta. Dependdo do númeor de páginas monitoradas com graphAPI_page.py o processo completo pode demorar de 1h30 a 2h*
